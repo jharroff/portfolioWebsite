@@ -3,7 +3,14 @@ function NavbarButton({pageTitle, link}) {
 
   return (
     <li>
-      <Link to={link}>{pageTitle}</Link>
+        <div className='navbarContainerDiv'>
+            <Link to={link}>
+                <p className="navbarButtonText">
+                    {pageTitle}
+                </p>
+            </Link>
+            <div className="underlineDiv"></div>
+        </div>
     </li>
   )
 }
