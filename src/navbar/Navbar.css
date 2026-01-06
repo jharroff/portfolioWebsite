@@ -1,0 +1,10 @@
+.navbarDiv{
+}
+ul {
+    display:flex;
+    justify-content: center;
+    list-style-type:none;
+}
+li {
+    margin: 5px;
+}
