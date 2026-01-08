@@ -1,15 +1,21 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import "./Navbar.css";
 function NavbarButton({pageTitle, link}) {
 
   return (
     <li>
         <div className='navbarContainerDiv'>
-            <Link to={link}>
-                <p className="navbarButtonText">
-                    {pageTitle}
-                </p>
-            </Link>
-            <div className="underlineDiv"></div>
+            <NavLink
+              to={link}>
+                {({isActive}) => (
+                  <>
+                    <p className={'navbarButtonText ' + (isActive ? "activePage" : "")}>
+                      {pageTitle}
+                    </p>
+                    <div className={(isActive ? "activeUnderlineDiv" : "underlineDiv")}></div>
+                  </>
+                )}
+            </NavLink>
         </div>
     </li>
   )
