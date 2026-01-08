@@ -1,14 +1,17 @@
 [
     {
         "title" : "Beaver Battles",
-        "description" : "This is the description for Beaver Battles."
+        "description" : "This is the description for Beaver Battles.",
+        "link": "https://github.com/BigWing06/CS3-CapstoneProject"
     },
     {
         "title" : "Spaced Out",
-        "description" : "This is the description for Spaced Out."
+        "description" : "This is the description for Spaced Out.",
+        "link":"https://github.com/BigWing06/Spaced-Out"
     },
     {
         "title" : "Spiral Music Shader",
-        "description" : "This is the description for Spiral Music Shader."
+        "description" : "This is the description for Spiral Music Shader.",
+        "link":"https://github.com/BigWing06/Spiral-Music-Shader"
     }
 ]

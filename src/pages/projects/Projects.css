@@ -17,12 +17,14 @@
     width: 90%;
     border: solid var(--unactive-color) 3px;
     border-radius: 10px;
+    color:var(--default-text-color);
     transition: 
         border ease 0.3s,
         transform ease 0.3s;
 }
 
 .showcaseDiv:hover{
+    color: var(--default-text-color);
     border: solid var(--highlight-color) 4px;
     transform: scale(1.02);
 }

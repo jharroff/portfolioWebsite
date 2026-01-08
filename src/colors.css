@@ -1,5 +1,6 @@
 :root{
     --highlight-color: #ebad13;
+    --default-text-color: white;
     --unactive-color: #555555;
     --active-nav-color: var(--highlight-color);
 }

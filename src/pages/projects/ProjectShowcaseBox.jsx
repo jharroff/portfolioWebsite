@@ -3,10 +3,10 @@ function ProjectShowcaseBox({data}) {
 
   return (
     <>
-      <div class="showcaseDiv">
+      <a class="showcaseDiv" href={data.link} target="_blank">
         <h2>{data.title}</h2>
         <p>{data.description}</p>
-      </div>
+      </a>
     </>
   )
 }
