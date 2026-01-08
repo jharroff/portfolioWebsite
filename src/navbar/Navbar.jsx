@@ -8,6 +8,7 @@ function Navbar() {
       <ul>
         <NavbarButton pageTitle={"Home"} link={"/"} />
         <NavbarButton pageTitle={"About"} link={"/about"} />
+        <NavbarButton pageTitle={"Projects"} link={"/projects"} />
       </ul>
     </div>
   )
