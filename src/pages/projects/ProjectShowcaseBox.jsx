@@ -1,9 +1,10 @@
+import "./Projects.css";
 function ProjectShowcaseBox({data}) {
 
   return (
     <>
-      <div class="titleDiv">
-        <h1>This is the project id {data.title}</h1>
+      <div class="showcaseDiv">
+        <h2>{data.title}</h2>
         <p>{data.description}</p>
       </div>
     </>

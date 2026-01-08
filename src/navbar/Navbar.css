@@ -1,6 +1,4 @@
-:root{
-    --active-nav-color: #ebad13;
-}
+@import url("../colors.css");
 
 .navbarDiv{
 }

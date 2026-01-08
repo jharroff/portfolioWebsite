@@ -1,10 +1,14 @@
 [
     {
-        "title" : "Example",
-        "description" : "This is the description for example Project."
+        "title" : "Beaver Battles",
+        "description" : "This is the description for Beaver Battles."
     },
     {
-        "title" : "sjafpasfdj",
-        "description" : "This is the description for example Project."
+        "title" : "Spaced Out",
+        "description" : "This is the description for Spaced Out."
+    },
+    {
+        "title" : "Spiral Music Shader",
+        "description" : "This is the description for Spiral Music Shader."
     }
 ]

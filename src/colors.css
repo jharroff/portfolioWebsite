@@ -1,0 +1,5 @@
+:root{
+    --highlight-color: #ebad13;
+    --unactive-color: #555555;
+    --active-nav-color: var(--highlight-color);
+}

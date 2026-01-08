@@ -1,5 +1,6 @@
 import ProjectShowcaseBox from "./ProjectShowcaseBox"
 import projects from "./projects.json";
+import "./Projects.css";
 
 function Projects() {
 
@@ -7,6 +8,8 @@ function Projects() {
     <>
       <div className="titleDiv">
         <h1>Projects</h1>
+      </div>
+      <div className="projectShowcaseContainer">
         {projects.map(p => (
           <ProjectShowcaseBox data={p} />
         ))}
