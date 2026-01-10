@@ -1,5 +1,11 @@
 [
     {
+        "id":"portfolioWebsite",
+        "title" : "Portfolio Website",
+        "description" : "This website deisnged to be a showcase of my computer science projects and skills.",
+        "link":"https://github.com/BigWing06/Spiral-Music-Shader"
+    },
+    {
         "id":"beaverBattles",
         "title" : "Beaver Battles",
         "description" : "Tower defense game that takes place in the article with weird creatures and lots of BEAVERS.",
@@ -15,12 +21,6 @@
         "id":"spiralMusicShader",
         "title" : "Spiral Music Shader",
         "description" : "This is the description for Spiral Music Shader.",
-        "link":"https://github.com/BigWing06/Spiral-Music-Shader"
-    },
-    {
-        "id":"portfolioWebsite",
-        "title" : "Portfolio Website",
-        "description" : "This website deisnged to be a showcase of my computer science projects and skills.",
         "link":"https://github.com/BigWing06/Spiral-Music-Shader"
     },
     {
