@@ -6,10 +6,10 @@ function ProjectShowcaseBox({data}) {
       <a className="showcaseDiv" href={data.link} target="_blank">
         <img 
           className="showcaseProjectImage" 
-          src={"src/assets/projectImages/" + data.id + ".png"} 
+          src={import.meta.env.BASE_URL + "projectImages/" + data.id + ".png"} 
           onError={({ currentTarget }) => {
             currentTarget.onerror = null; // prevents looping
-            currentTarget.src="src/assets/imageNotFound.svg";
+            currentTarget.src=import.meta.env.BASE_URL + "imageNotFound.svg";
           }}>
         </img>
         <h2>{data.title}</h2>
