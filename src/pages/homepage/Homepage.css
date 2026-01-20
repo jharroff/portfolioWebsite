@@ -1,3 +1,5 @@
+@import url("../../globalStyles.css");
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -7,4 +9,6 @@
 .titleDiv {
   height: 200qqpx;
 }
-
+.rowContainer {
+  display: flex;
+}

@@ -1,6 +1,6 @@
 import ProjectShowcaseBox from "./ProjectShowcaseBox"
 import projects from "./projects.json";
-import "./Projects.css";
+import styles from "./Projects.module.css";
 
 function Projects() {
 
@@ -9,7 +9,7 @@ function Projects() {
       <div className="titleDiv">
         <h1>Projects</h1>
       </div>
-      <div className="projectShowcaseContainer">
+      <div className={styles.projectShowcaseContainer}>
         {projects.map(p => (
           <ProjectShowcaseBox data={p} />
         ))}

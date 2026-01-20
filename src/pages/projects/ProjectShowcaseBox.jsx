@@ -1,11 +1,11 @@
-import "./Projects.css";
+import styles from "./Projects.module.css";
 function ProjectShowcaseBox({data}) {
 
   return (
     <>
-      <a className="showcaseDiv" href={data.link} target="_blank">
+      <a className={styles.showcaseDiv} href={data.link} target="_blank">
         <img 
-          className="showcaseProjectImage" 
+          className={styles.showcaseProjectImage} 
           src={import.meta.env.BASE_URL + "projectImages/" + data.id + ".png"} 
           onError={({ currentTarget }) => {
             currentTarget.onerror = null; // prevents looping

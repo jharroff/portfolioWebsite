@@ -1,7 +1,7 @@
-@import url("../../colors.css");
+@import url("../../globalStyles.css");
 
-#root{
-    width:100%;
+.showcaseDiv{
+    height: 350px;
 }
 
 .projectShowcaseContainer {
@@ -11,27 +11,6 @@
     justify-items: center;
     justify-content: center;
     width: 100%;
-}
-
-.showcaseDiv{
-    height: 350px;
-    outline: solid var(--unactive-color) 3px;
-    border-radius: 10px;
-    color:var(--default-text-color);
-    transition: 
-        border ease 0.3s,
-        transform ease 0.3s;
-}
-
-.showcaseDiv:hover{
-    color: var(--default-text-color);
-    outline: solid var(--highlight-color) 4px;
-    transform: scale(1.02);
-}
-
-.showcaseDiv h2{
-    transition: color ease 0.3s;
-    margin: 0px 20px;
 }
 
 .showcaseDiv:hover h2{

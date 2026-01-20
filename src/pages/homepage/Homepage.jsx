@@ -1,6 +1,4 @@
-import { useState } from 'react'
 import './Homepage.css'
-import Navbar from '../../navbar/Navbar'
 
 function Homepage() {
 
@@ -8,7 +6,10 @@ function Homepage() {
     <>
       <div class="titleDiv">
         <h1>BigWing's Portfolio Website</h1>
-        <p>Welcome to BigWing's Website! It's still a work in progress but feel free to look around.</p>
+      </div>
+      <p>Welcome to BigWing's Website! It's still a work in progress but feel free to look around.</p>
+      <div className="rowContainer">
+        <div className="showcaseDiv">Hello</div><div className="showcaseDiv">Hello2</div>
       </div>
     </>
   )
