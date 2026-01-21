@@ -4,6 +4,10 @@
     width:100%;
 }
 
+.titleDiv{
+    text-align: center;
+}
+
 .defaultOutline{
     outline: solid var(--unactive-color) 3px;
     transition: 

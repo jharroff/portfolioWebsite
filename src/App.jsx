@@ -3,6 +3,7 @@ import Homepage from './pages/homepage/Homepage'
 import About from './pages/about/About'
 import Projects from './pages/projects/Projects'
 import {Routes, Route, Link} from 'react-router-dom'
+import "./globalStyles.css"
 
 function App() {
 
