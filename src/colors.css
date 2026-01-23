@@ -1,6 +1,36 @@
+@property --highlight-color {
+  syntax: "<color>";
+  inherits: true;
+  initial-value: #0b3cdb;
+}
+
 :root{
-    --highlight-color: #ebad13;
+    --highlight-color: #3354c0;
     --default-text-color: white;
     --unactive-color: #555555;
     --active-nav-color: var(--highlight-color);
+}
+@keyframes rainbow {
+    0% {
+        --highlight-color: #ff0000;
+    }
+    15% {
+        --highlight-color: #ff7f00;
+    }
+    30% {
+        --highlight-color: #ffff00;
+    }
+    45% {
+        --highlight-color: #00ff00;
+    }
+    60% {
+        --highlight-color: #0000ff;
+    }
+    75% {
+        --highlight-color: #8f00ff;
+    }
+    
+}
+html {
+    /*animation: 10s rainbow infinite;*/
 }
