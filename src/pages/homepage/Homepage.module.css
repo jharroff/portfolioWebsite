@@ -27,3 +27,41 @@
 .centerImage {
   width: 65%
 }
+.skillsContainer {
+  justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  width: 100%;
+  padding: 20px;
+  position: relative;
+}
+.skillIconContainer{
+  width: 75px;
+  height: 75px;
+}
+
+.skillIcon{
+  max-width:100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+/* Tooltip text */
+.tooltiptext {
+  opacity: 0; /* Hidden by default */
+  width: 100px;
+  background-color: #111111;
+  color: #ffffff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  position: absolute;
+  transform: translate(-87.5px, -40px);
+  z-index: 1; /* Ensure tooltip is displayed above content */
+  transition: opacity ease 0.3s;
+}
+
+/* Show the tooltip text on hover */
+.skillIconContainer:hover .tooltiptext {
+  opacity: 1;
+}

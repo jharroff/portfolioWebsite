@@ -1,4 +1,5 @@
 import styles from './Homepage.module.css'
+import SkillShowcaseBox from "./skillShowcaseBox.jsx"
 
 function Homepage() {
 
@@ -17,7 +18,12 @@ function Homepage() {
         </div>
         <div style={{"gridArea": "tech"}} className={styles.showcaseDiv}>
           <div className={styles.gridContainer}>
-            Helsdslo
+            <h2>Skills</h2>
+            <div className={styles.skillsContainer}>
+              {["Java", "Python", "Git", "C", "Godot", "Linux", "React"].map(p => (
+                <SkillShowcaseBox name={p} />
+              ))}
+            </div>
           </div>
         </div>
         <div style={{"gridArea": "github"}} className={styles.showcaseDiv}>
