@@ -1,0 +1,18 @@
+[
+    {
+        "name":"Github",
+        "link":"https://github.com/BigWing06"
+    },
+    {
+        "name":"LinkedIn",
+        "title" : "Beaver Battles",
+        "description" : "Tower defense game that takes place in the article with weird creatures and lots of BEAVERS.",
+        "link": "https://www.linkedin.com/in/joshua-harroff-90aba638a/"
+    },
+    {
+        "name":"Email",
+        "title" : "Spaced Out",
+        "description" : "Two Player cooperative space exploration game created for the 2025 Indiana TSA video game design competition.",
+        "link":"mailto:joshuaharroff@outlook.com"
+    }
+]

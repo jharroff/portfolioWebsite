@@ -1,5 +1,6 @@
 import styles from './Homepage.module.css'
-import SkillShowcaseBox from "./skillShowcaseBox.jsx"
+import ShowcaseBox from "./ShowcaseBox.jsx"
+import links from "./links.json";
 
 function Homepage() {
 
@@ -19,9 +20,12 @@ function Homepage() {
         <div style={{"gridArea": "tech"}} className={styles.showcaseDiv}>
           <div className={styles.gridContainer}>
             <h2>Skills</h2>
-            <div className={styles.skillsContainer}>
+            <div className={styles.showcaseContainer}>
               {["Java", "Python", "Git", "C", "Godot", "Linux", "React"].map(p => (
-                <SkillShowcaseBox name={p} />
+                <ShowcaseBox 
+                  name={p} 
+                  imagePath={import.meta.env.BASE_URL + "skillsIcons/" + p + ".svg"} 
+                  tooltip={true}/>
               ))}
             </div>
           </div>
@@ -34,7 +38,16 @@ function Homepage() {
         </div>
         <div style={{"gridArea": "links"}} className={styles.showcaseDiv}>
           <div className={styles.gridContainer}>
-            Helsdslo
+            <h2>Useful Links</h2>
+            <div className={styles.showcaseContainer}>
+              {links.map(link => (
+                <ShowcaseBox 
+                  name={link.name} 
+                  imagePath={import.meta.env.BASE_URL + "linkIcons/" + link.name + ".svg"} 
+                  link={link.link} 
+                  tooltip={true}/>
+              ))}
+            </div>
           </div>
         </div>
       </div>
