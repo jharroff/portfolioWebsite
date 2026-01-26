@@ -39,6 +39,7 @@
 .skillIconContainer{
   width: 75px;
   height: 75px;
+  transition: transform ease 0.3s;
 }
 
 .skillIcon{
@@ -59,6 +60,10 @@
   transform: translate(-87.5px, -40px);
   z-index: 1; /* Ensure tooltip is displayed above content */
   transition: opacity ease 0.3s;
+}
+
+.skillIconContainer:hover{
+  transform: scale(110%);
 }
 
 /* Show the tooltip text on hover */
