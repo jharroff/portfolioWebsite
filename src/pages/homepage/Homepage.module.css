@@ -25,7 +25,9 @@
 }
 
 .centerImage {
-  width: 65%
+  width: 60%;
+  margin: 10px;
+  transition: transform ease 0.3s;
 }
 .showcaseContainer {
   justify-content: center;
@@ -62,11 +64,25 @@
   transition: opacity ease 0.3s;
 }
 
-.skillIconContainer:hover{
+.centerImage:hover, .skillIconContainer:hover{
   transform: scale(110%);
 }
 
 /* Show the tooltip text on hover */
 .skillIconContainer:hover .tooltiptext {
   opacity: 1;
+}
+
+.profileImage {
+  height:100%;
+  max-width: 100%;
+  object-fit: cover;
+  overflow: hidden;
+}
+
+.aboutText {
+  font-size: 18px;
+  padding-left: 20px;
+  padding-right: 20px;
+  text-align: left;
 }

@@ -9,12 +9,13 @@ function Homepage() {
       <div className={styles.rowContainer}>
         <div style={{"gridArea": "bio"}} className={styles.showcaseDiv}>
           <div className={styles.gridContainer}>
-            Helsdslo
+            <h2 style={{"padding":"0px"}}>About Me</h2>
+            <p className={styles.aboutText}>Hello! I'm Joshua Harroff, a current Purdue student and aspiring Software Engineer. I'm a full stack developer who enjoys exploring and learning new things. Outside of CS, I enjoy traveling, biking, playing board games, and random adventures.</p>
           </div>
         </div>
         <div style={{"gridArea": "image"}} className={styles.showcaseDiv}>
           <div className={styles.gridContainer}>
-            Helsdslo
+            <img className={styles.profileImage} src={import.meta.env.BASE_URL + "profilePic.JPG"}></img>
           </div>
         </div>
         <div style={{"gridArea": "tech"}} className={styles.showcaseDiv}>
