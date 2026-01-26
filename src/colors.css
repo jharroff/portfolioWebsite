@@ -1,9 +1,3 @@
-@property --highlight-color {
-  syntax: "<color>";
-  inherits: true;
-  initial-value: #0b3cdb;
-}
-
 :root{
     --highlight-color: #921F48;
     --default-text-color: white;
@@ -30,7 +24,4 @@
         --highlight-color: #8f00ff;
     }
     
-}
-html {
-    /*animation: 10s rainbow infinite;*/
 }
