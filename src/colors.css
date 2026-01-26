@@ -5,7 +5,7 @@
 }
 
 :root{
-    --highlight-color: #3354c0;
+    --highlight-color: #921F48;
     --default-text-color: white;
     --unactive-color: #555555;
     --active-nav-color: var(--highlight-color);
