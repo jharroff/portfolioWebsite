@@ -43,7 +43,7 @@
 .backgroundImage{
     width: 100vw;
     height: 100vh;
-    position: absolute;
+    position: fixed;
     opacity: .35;
     z-index: -1;
     object-fit: cover;
