@@ -1,5 +1,16 @@
 @import url("../../globalStyles.css");
 
+@keyframes slideIn {
+  from {
+    transform: var(--slide-start);
+    opacity: 0;
+  }
+  to {
+    transform: translate(0, 0);
+    opacity: 1;
+  }
+}
+
 .titleDiv {
   height: 200qqpx;
 }
@@ -89,22 +100,45 @@
 }
 
 .gridAreaBio {
+  animation: slideIn 0.6s ease-out forwards;
+  animation-delay:0.2s;
+  --slide-start: translateX(-50px);
+  transform: var(--slide-start);
+  opacity: 0;
   grid-area: bio;
 }
 
 .gridAreaImage {
+  animation: slideIn 0.6s ease-out forwards;
+  animation-delay: 0.4s;
+  --slide-start: translateY(-50px);
+  transform: var(--slide-start);
+  opacity: 0;
   grid-area: image;
 }
 
 .gridAreaLinks {
+  animation: slideIn 0.6s ease-out forwards;
+  --slide-start: translateX(50px);
+  animation-delay: 0.6s;
+  transform: var(--slide-start);
+  opacity: 0;
   grid-area: links;
 }
 
 .gridAreaGithub {
+  animation: slideIn 0.6s ease-out forwards;
   grid-area: github;
+  animation-delay: 0.0s;
+  opacity: 0;
 }
 
 .gridAreaTech {
+  animation: slideIn 0.6s ease-out forwards;
+  --slide-start: translateY(50px);
+  animation-delay: 0.8s;
+  transform: var(--slide-start);
+  opacity: 0;
   grid-area: tech;
 }
 
@@ -112,6 +146,33 @@
   .rowContainer {
     display:flex;
     flex-direction: column;
+  }
+
+  .gridAreaBio{
+    --slide-start: translateX(-50px);
+    animation-delay: 0.0s;
+    transform: var(--slide-start);
+    opacity: 0;
+  }
+
+  .gridAreaTech{
+    --slide-start: translateX(50px);
+    animation-delay: 0.2s;
+    transform: var(--slide-start);
+    opacity: 0;
+  }
+
+  .gridAreaImage{
+    --slide-start: translateX(-50px);
+    animation-delay: 0.4s;
+    transform: var(--slide-start);
+    opacity: 0;
+  }
+  .gridAreaLinks{
+    --slide-start: translateX(50px);
+    animation-delay: 0.6s;
+    transform: var(--slide-start);
+    opacity: 0;
   }
   .centerImage {
     height: 200px; /* Set a fixed height for the profile image on smaller screens */
