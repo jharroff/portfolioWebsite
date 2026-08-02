@@ -7,18 +7,13 @@ function Homepage() {
   return (
     <div style={{"margin": "25px"}}>
       <div className={styles.rowContainer}>
-        <div style={{"gridArea": "bio"}} className={styles.showcaseDiv}>
+        <div className={styles.showcaseDiv + " " + styles.gridAreaBio}>
           <div className={styles.gridContainer}>
             <h2 style={{"padding":"0px"}}>About Me</h2>
             <p className={styles.aboutText}>Hello! I'm Joshua Harroff, a current Purdue student and aspiring Software Engineer. I'm a full stack developer who enjoys exploring and learning new things. Outside of CS, I enjoy traveling, biking, playing board games, and random adventures.</p>
           </div>
         </div>
-        <div style={{"gridArea": "image"}} className={styles.showcaseDiv}>
-          <div className={styles.gridContainer}>
-            <img className={styles.profileImage} src={import.meta.env.BASE_URL + "profilePic.JPG"}></img>
-          </div>
-        </div>
-        <div style={{"gridArea": "tech"}} className={styles.showcaseDiv}>
+        <div className={styles.showcaseDiv + " " + styles.gridAreaTech}>
           <div className={styles.gridContainer}>
             <h2>Skills</h2>
             <div className={styles.showcaseContainer}>
@@ -31,13 +26,18 @@ function Homepage() {
             </div>
           </div>
         </div>
-        <div style={{"gridArea": "github"}} className={styles.showcaseDiv}>
+        <div className={styles.showcaseDiv + " " + styles.gridAreaImage}>
+          <div className={styles.gridContainer}>
+            <img className={styles.profileImage} src={import.meta.env.BASE_URL + "profilePic.JPG"}></img>
+          </div>
+        </div>
+        <div className={styles.showcaseDiv + " " + styles.gridAreaGithub}>
           <div className={styles.gridContainer}>
             <img className={styles.centerImage} src={import.meta.env.BASE_URL + "/favicon.png"}></img>
             <h2>Joshua Harroff</h2>
           </div>
         </div>
-        <div style={{"gridArea": "links"}} className={styles.showcaseDiv}>
+        <div className={styles.showcaseDiv + " " + styles.gridAreaLinks}>
           <div className={styles.gridContainer}>
             <h2>Useful Links</h2>
             <div className={styles.showcaseContainer}>

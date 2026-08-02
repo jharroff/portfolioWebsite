@@ -8,8 +8,8 @@
   grid-template-columns: 250px 250px 250px;
   grid-template-rows: 250px 250px 250px;
   grid-template-areas: 'bio bio image'
-                       'tech github image'
-                       'tech links links';
+                      'tech github image'
+                      'tech links links';
   justify-content: center;
   gap: 20px;
 }
@@ -27,6 +27,7 @@
 .centerImage {
   width: 60%;
   margin: 10px;
+  aspect-ratio: 1/1;
   transition: transform ease 0.3s;
 }
 .showcaseContainer {
@@ -85,4 +86,45 @@
   padding-left: 20px;
   padding-right: 20px;
   text-align: left;
+}
+
+.gridAreaBio {
+  grid-area: bio;
+}
+
+.gridAreaImage {
+  grid-area: image;
+}
+
+.gridAreaLinks {
+  grid-area: links;
+}
+
+.gridAreaGithub {
+  grid-area: github;
+}
+
+.gridAreaTech {
+  grid-area: tech;
+}
+
+@media only screen and (max-width: 800px) {
+  .rowContainer {
+    display:flex;
+    flex-direction: column;
+  }
+  .centerImage {
+    height: 200px; /* Set a fixed height for the profile image on smaller screens */
+    width: 200px;
+  }
+  .gridAreaImage {
+    height: 50vw; /* Set a fixed height for the image grid area on smaller screens */
+  }
+  .profileImage {
+    width:100%;
+    object-position:0px 80%;
+  }
+  .gridAreaGithub {
+    display:none;
+  }
 }
