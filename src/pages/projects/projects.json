@@ -3,30 +3,30 @@
         "id":"portfolioWebsite",
         "title" : "Portfolio Website",
         "description" : "This website deisnged to be a showcase of my computer science projects and skills.",
-        "link":"https://github.com/BigWing06/Spiral-Music-Shader"
+        "link":"https://github.com/jharroff/Spiral-Music-Shader"
     },
     {
         "id":"beaverBattles",
         "title" : "Beaver Battles",
         "description" : "Tower defense game that takes place in the article with weird creatures and lots of BEAVERS.",
-        "link": "https://github.com/BigWing06/CS3-CapstoneProject"
+        "link": "https://github.com/jharroff/CS3-CapstoneProject"
     },
     {
         "id":"spacedOut",
         "title" : "Spaced Out",
         "description" : "Two Player cooperative space exploration game created for the 2025 Indiana TSA video game design competition.",
-        "link":"https://github.com/BigWing06/Spaced-Out"
+        "link":"https://github.com/jharroff/Spaced-Out"
     },
     {
         "id":"spiralMusicShader",
         "title" : "Spiral Music Shader",
         "description" : "This is the description for Spiral Music Shader.",
-        "link":"https://github.com/BigWing06/Spiral-Music-Shader"
+        "link":"https://github.com/jharroff/Spiral-Music-Shader"
     },
     {
         "id":"tankGame",
         "title" : "Tank Game",
         "description" : "Multiplayer 2d tank game created with a friend for as a programming class assignement.",
-        "link":"https://github.com/BigWing06/Tank-Game"
+        "link":"https://github.com/jharroff/Tank-Game"
     }
 ]
