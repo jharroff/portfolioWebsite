@@ -1,8 +1,21 @@
 @import url("../../globalStyles.css");
 
+.showcaseDivEntry{
+    opacity: 0;
+    transform: translateY(50px);
+    animation: show 0.5s forwards; animation-delay: var(--animationDelay);
+}
+
 .showcaseDiv{
     height: 350px;
     text-align: center;
+}
+
+@keyframes show {
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
 }
 
 .projectShowcaseContainer {
@@ -16,6 +29,10 @@
 
 .showcaseDiv:hover h2{
     color: var(--highlight-color);
+}
+
+.showcaseDiv h2, .showcaseDiv p{
+    color: var(--default-text-color);
 }
 
 .showcaseProjectImage {

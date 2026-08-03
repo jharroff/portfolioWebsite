@@ -1,21 +1,24 @@
 import styles from "./Projects.module.css";
-function ProjectShowcaseBox({data}) {
+function ProjectShowcaseBox({data, index}) {
+
 
   return (
-    <>
-      <a className={styles.showcaseDiv} href={data.link} target="_blank">
-        <img 
-          className={styles.showcaseProjectImage} 
-          src={import.meta.env.BASE_URL + "projectImages/" + data.id + ".png"} 
-          onError={({ currentTarget }) => {
-            currentTarget.onerror = null; // prevents looping
-            currentTarget.src=import.meta.env.BASE_URL + "imageNotFound.svg";
-          }}>
-        </img>
-        <h2>{data.title}</h2>
-        <p>{data.description}</p>
-      </a>
-    </>
+  <div className={styles.showcaseDivEntry} style={{'--animationDelay': `${index * 0.1}s`}}>
+    <div className={styles.showcaseDiv}>
+        <a href={data.link} target="_blank">
+          <img 
+            className={styles.showcaseProjectImage} 
+            src={import.meta.env.BASE_URL + "projectImages/" + data.id + ".png"} 
+            onError={({ currentTarget }) => {
+              currentTarget.onerror = null; // prevents looping
+              currentTarget.src=import.meta.env.BASE_URL + "imageNotFound.svg";
+            }}>
+          </img>
+          <h2>{data.title}</h2>
+          <p>{data.description}</p>
+        </a>
+      </div>
+    </div>
   )
 }
 

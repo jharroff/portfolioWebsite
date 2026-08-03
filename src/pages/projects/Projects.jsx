@@ -10,8 +10,8 @@ function Projects() {
         <h1>Projects</h1>
       </div>
       <div className={styles.projectShowcaseContainer}>
-        {projects.map(p => (
-          <ProjectShowcaseBox data={p} />
+        {projects.map((p, index) => (
+          <ProjectShowcaseBox data={p} index={index}/>
         ))}
       </div>
     </>
