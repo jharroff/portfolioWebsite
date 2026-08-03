@@ -15,6 +15,13 @@ function ProjectShowcaseBox({data, index}) {
             }}>
           </img>
           <h2>{data.title}</h2>
+          <div className={styles.skillTagContainer}>
+          {data.skills && data.skills.map((skill, index) => (
+            <span key={index} className={styles.skillTag}>
+              {skill}
+            </span>
+          ))}
+          </div>
           <p>{data.description}</p>
         </a>
       </div>

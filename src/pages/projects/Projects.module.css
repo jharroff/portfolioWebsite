@@ -6,6 +6,33 @@
     animation: show 0.5s forwards; animation-delay: var(--animationDelay);
 }
 
+.skillTagContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5px;
+    margin: 10px 0;
+}
+
+.skillTag {
+    background-color: var(--unactive-color);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 15px;
+    font-size: 14px;
+    transition: 
+        background-color ease 0.3s,
+        transform ease 0.3s;
+}
+
+.skillTag:hover {
+    transform: scale(1.1);
+}
+
+.showcaseDiv:hover .skillTag {
+    background-color: var(--highlight-color);
+}
+
 .showcaseDiv{
     height: 350px;
     text-align: center;
