@@ -20,13 +20,13 @@
     {
         "id":"spiralMusicShader",
         "title" : "Spiral Music Shader",
-        "description" : "This is the description for Spiral Music Shader.",
+        "description" : "A fun music shader that lets you visualize uploaded mp3 files.",
         "link":"https://github.com/jharroff/Spiral-Music-Shader"
     },
     {
         "id":"tankGame",
         "title" : "Tank Game",
-        "description" : "Multiplayer 2d tank game created with a friend for as a programming class assignement.",
+        "description" : "Multiplayer 2d tank game.",
         "link":"https://github.com/jharroff/Tank-Game"
     }
 ]
