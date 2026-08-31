@@ -40,7 +40,7 @@ function Homepage() {
         <div className={styles.gridAreaGithub}>
           <div className={styles.showcaseDiv}>
             <div className={styles.gridContainer}>
-              <img className={styles.centerImage} src={import.meta.env.BASE_URL + "/favicon.png"}></img>
+              <img className={styles.centerImage} src={import.meta.env.BASE_URL + "favicon.png"}></img>
               <h2>Joshua Harroff</h2>
             </div>
           </div>
