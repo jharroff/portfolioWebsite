@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage" : "https://BigWing06.github.io/portfolioWebsite",
+  "homepage" : "https://jharroff.net",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
