@@ -2,7 +2,8 @@ import { useState } from 'react'
 import Homepage from './pages/homepage/Homepage'
 import About from './pages/about/About'
 import Projects from './pages/projects/Projects'
-import {Routes, Route, Link} from 'react-router-dom'
+import Resume from './pages/resume/Resume'
+import {Routes, Route, Navigate} from 'react-router-dom'
 import "./globalStyles.css"
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
     <Routes>
       <Route exact path="/" element={<Homepage />} />
       <Route exact path="/about" element={<About />} />
-      <Route exect path="/projects" element={<Projects />} />
+      <Route exact path="/projects" element={<Projects />} />
+      <Route exact path="/resume" element={<Resume />} />
     </Routes>
   )
 }
