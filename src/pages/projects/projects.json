@@ -2,35 +2,35 @@
     {
         "id":"portfolioWebsite",
         "title" : "Portfolio Website",
-        "description" : "This website deisnged to be a showcase of my computer science projects and skills.",
+        "description" : "This website designed to be a showcase of my computer science projects and skills.",
         "skills" : ["JavaScript", "HTML", "CSS", "React"],
         "link":"https://github.com/jharroff/Spiral-Music-Shader"
     },
     {
         "id":"beaverBattles",
         "title" : "Beaver Battles",
-        "description" : "Tower defense game that takes place in the article with weird creatures and lots of BEAVERS.",
+        "description" : "Tower defense game made as High School Capstone Project that takes place in the artic with weird creatures and lots of BEAVERS.",
         "skills" : ["Godot", "GitHub", "Git"],
         "link": "https://github.com/jharroff/CS3-CapstoneProject"
     },
     {
         "id":"spacedOut",
         "title" : "Spaced Out",
-        "description" : "Cooperative exploration game created for the 2025 Indiana TSA video game design competition.",
+        "description" : "Cooperative exploration game created for the 2025 High School Indiana TSA video game design competition. Won 1st place in video game design.",
         "skills" : ["Godot", "GitHub", "Git"],
         "link":"https://github.com/jharroff/Spaced-Out"
     },
     {
         "id":"spiralMusicShader",
         "title" : "Spiral Music Shader",
-        "description" : "A fun music shader that lets you visualize uploaded mp3 files.",
+        "description" : "A fun music shader that lets you visualize uploaded mp3 files made as part of my high school computer science class.",
         "skills" : ["Java", "Processing"],
         "link":"https://github.com/jharroff/Spiral-Music-Shader"
     },
     {
         "id":"tankGame",
         "title" : "Tank Game",
-        "description" : "A fun multiplayer 2d tank game created as a class project.",
+        "description" : "A fun multiplayer 2d tank game created as a high school class project.",
         "skills" : ["Java", "Processing"],
         "link":"https://github.com/jharroff/Tank-Game"
     }
