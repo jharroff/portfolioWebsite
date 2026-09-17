@@ -1,10 +1,31 @@
 [
     {
+        "id":"boilerMenus",
+        "title" : "Boiler Menus",
+        "description" : "A better version of Purdue Menus app, featuring a dashboard showing food at all dining courts and a rating system recommending the location based on menu.",
+        "skills" : ["JavaScript", "HTML", "CSS", "React"],
+        "link":"https://boilermenus.jharroff.net"
+    },
+    {
         "id":"portfolioWebsite",
         "title" : "Portfolio Website",
         "description" : "This website designed to be a showcase of my computer science projects and skills.",
         "skills" : ["JavaScript", "HTML", "CSS", "React"],
-        "link":"https://github.com/jharroff/Spiral-Music-Shader"
+        "link":"https://github.com/jharroff/portfolioWebsite.git"
+    },
+    {
+        "id":"pantryPlanners",
+        "title" : "Pantry Planners",
+        "description" : "Educational Video Game created in 48hrs as part of the 2026 C3 Game Jame. Created in Godot and works to translate research done on food insecuity into a game.",
+        "skills" : ["Godot", "Git", "GitHub"],
+        "link":"https://github.com/jharroff/C3-Game-Jam-JARRN-Studios"
+    },
+    {
+        "id":"customCMA",
+        "title" : "Custom CMA",
+        "description" : "Movie Theater booking software written for CS180 Object Oriented Programming class. Includes frontend and backend written in Java. Code is private due to class restrictions.",
+        "skills" : ["Java", "Junit Testing", "Git"],
+        "link":""
     },
     {
         "id":"beaverBattles",
