@@ -1,8 +1,9 @@
 :root{
-    --highlight-color: #921F48;
+    --highlight-color: #0F577E;
     --default-text-color: white;
-    --unactive-color: #555555;
+    --unactive-color: #aaaaaa;
     --active-nav-color: var(--highlight-color);
+    --container-background-color: #0d111799;
 }
 @keyframes rainbow {
     0% {

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage" : "https://jharroff.net",
+  "homepage": "https://jharroff.net",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -13,9 +13,12 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@tsparticles/basic": "^4.4.0",
+    "@tsparticles/react": "^4.4.0",
     "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "react-router-dom": "^7.11.0"
+    "react-router-dom": "^7.11.0",
+    "tsparticles": "^4.4.0"
   },
   "devDependencies": {
     "@eslint/js": "^9.39.1",

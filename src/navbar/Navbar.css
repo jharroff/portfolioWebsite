@@ -1,6 +1,8 @@
 @import url("../colors.css");
 
 .navbarDiv{
+    padding: .5em 0em;
+    background-color:var(--container-background-color);
 }
 .navbarButtonText{
     font-weight: bold;
@@ -41,5 +43,5 @@ li {
     margin: 0px 10px;
 }
 .activePage{
-    color:var(--active-nav-color);
+    /*color:var(--active-nav-color);*/
 }

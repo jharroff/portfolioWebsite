@@ -33,6 +33,7 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-color: var(--container-background-color);
 }
 
 .centerImage {
@@ -153,6 +154,7 @@
     animation-delay: 0.0s;
     transform: var(--slide-start);
     opacity: 0;
+    background-color: var(white);
   }
 
   .gridAreaTech{

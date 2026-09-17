@@ -3,6 +3,7 @@
 .showcaseDivEntry{
     opacity: 0;
     transform: translateY(50px);
+    background-color: var(--container-background-color);
     animation: show 0.5s forwards; animation-delay: var(--animationDelay);
 }
 
@@ -36,6 +37,7 @@
 .showcaseDiv{
     height: 350px;
     text-align: center;
+    padding: 10pt;
 }
 
 @keyframes show {
@@ -48,7 +50,7 @@
 .projectShowcaseContainer {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 300px));
-    gap: 20px; /* Space between grid items */
+    gap: 30px; /* Space between grid items */
     justify-items: center;
     justify-content: center;
     width: 100%;

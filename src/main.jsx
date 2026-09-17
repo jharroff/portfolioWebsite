@@ -9,8 +9,6 @@ import "./globalStyles.css"
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <HashRouter>
-      <img className="backgroundImage" src={import.meta.env.BASE_URL + "background.webp"}></img>
-      <Navbar />
       <App />
     </HashRouter>
   </StrictMode>,
