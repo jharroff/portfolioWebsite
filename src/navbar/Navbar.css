@@ -1,8 +1,42 @@
 @import url("../colors.css");
-
+.outerNavDiv{
+    display:flex;
+    justify-content: center;
+    width:100%;
+}
 .navbarDiv{
     padding: .5em 0em;
     background-color:var(--container-background-color);
+    display:flex;
+    width:810px;
+}
+.socialIcon{
+    height:2em;
+    width:fit-content;
+    padding:0 10px;
+}
+.navbarDiv > div{
+    flex:1;
+    display:flex;
+}
+.nameText{
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    padding: 0px 8px;
+    margin: 3px;
+    align-items:center;
+}
+.nameDiv{
+    justify-content: left;
+}
+.navLinksDiv{
+    justify-content: center;
+}
+.socialLinksDiv{
+    padding: 0px 8px;
+    justify-content: flex-end;
+    justify-items: flex-end;
 }
 .navbarButtonText{
     font-weight: bold;
@@ -31,6 +65,10 @@ li:hover .underlineDiv {
     transform: scaleX(1);
     border-bottom: solid 3px var(--active-nav-color);
 }
+a:hover .underlineDiv {
+    transform: scaleX(1);
+    border-bottom: solid 3px var(--active-nav-color);
+}
 
 ul {
     display:flex;
@@ -44,4 +82,16 @@ li {
 }
 .activePage{
     /*color:var(--active-nav-color);*/
+}
+@media only screen and (max-width: 800px) {
+    .navbarDiv .nameDiv {
+        display: none; 
+    }
+    .navbarDiv{
+        flex-direction: column;
+    }
+    .socialLinksDiv{
+        justify-content: center;
+        padding-top:20px;
+    }
 }

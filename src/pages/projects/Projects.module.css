@@ -1,5 +1,9 @@
 @import url("../../globalStyles.css");
 
+h1{
+    margin-top:10px;
+    margin-bottom:25px;
+}
 .showcaseDivEntry{
     opacity: 0;
     transform: translateY(50px);
