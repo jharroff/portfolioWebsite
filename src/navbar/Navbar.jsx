@@ -33,7 +33,7 @@ function NavbarExternalLink({pageIcon, link}) {
   return (
     <>
       <a href={link} target="_blank" rel="noopener noreferrer">
-        <img className="socialIcon" src={import.meta.env.BASE_URL + `/public/linkIcons/${pageIcon}.png`} alt={pageIcon} />
+        <img className="socialIcon" src={import.meta.env.BASE_URL + `linkIcons/${pageIcon}.png`} alt={pageIcon} />
         <div className={("underlineDiv")}></div>
       </a>
     </>
